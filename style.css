@@ -51,7 +51,47 @@ body{
 }
 
 .section.area1{
+    display: flex;
+    justify-content: center;
     background-color: #455173;
+    gap: 50px;
+    padding: 75px;
+}
+
+.area1Left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 10px;
+}
+
+.bigText{
+    font-size: xx-large;
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.subText{
+    margin: 0px;
+    color: lightcyan;
+}
+
+button{
+    width: 100px;
+    padding: 4px 8px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+img{
+    width: 200px;
 }
 
 .section.area3{
