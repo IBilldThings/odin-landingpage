@@ -6,6 +6,7 @@ body{
     margin: 0px;
     height: 100vh;
     border: 1px solid black;
+    font-family: Roboto;
 }
 
 .header, .footer{
@@ -14,15 +15,16 @@ body{
     align-items: center;
     margin: 0px;
     padding: 8px;
-    background-color: #455173;
+    background-color: #1F2937;
     color: azure;
 }
 
 .headerLogo {
     flex: 1;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
 .headerLinks{
@@ -32,6 +34,8 @@ body{
     margin: 0px;
     padding: 0px;
     gap:16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .footer{
@@ -53,7 +57,7 @@ body{
 .section.area1{
     display: flex;
     justify-content: center;
-    background-color: #455173;
+    background-color: #1F2937;
     gap: 50px;
     padding: 75px;
 }
@@ -68,21 +72,22 @@ body{
 }
 
 .bigText{
-    font-size: xx-large;
-    color: white;
+    font-size: 48px;
+    color: #F9FAF8;
     font-weight: 900;
     margin: 0px;
 }
 
 .subText{
     margin: 0px;
-    color: lightcyan;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 button{
     width: 100px;
     padding: 4px 8px;
-    background-color: cornflowerblue;
+    background-color: #3882F6;
     color: white;
     border: 1px solid black;
     border-radius: 4px;
@@ -94,8 +99,62 @@ img{
     width: 200px;
 }
 
+.section.area2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1F2937;
+    padding-bottom: 64px;
+}
+
+.section.area2 p{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.section.area2 .container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 12px;
+    width: 400px;
+}
+
+.section.area2 .container .info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 12px;
+}
+
+.section.section.area2 .container .info img{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
 .section.area3{
-    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 20px;
+    color: #1F2937;
+    padding: 64px 32px 32px;
+}
+
+.section.area3 .container{
+    display: flex;
+    text-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+}
+
+.section.area3 p{
+    text-align: end;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
