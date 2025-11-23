@@ -89,7 +89,6 @@ button{
     padding: 4px 8px;
     background-color: #3882F6;
     color: white;
-    border: 1px solid black;
     border-radius: 4px;
     font-size: 12px;
     cursor: pointer;
@@ -157,6 +156,34 @@ img{
     font-weight: 700;
 }
 
+.section.area4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.section.area4 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.section.area4 .text{
+    font-size: 12px;
+}
+
+.section.area4 button{
+    height: 22px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
 
 ul {
     list-style: none;
