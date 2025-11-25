@@ -5,69 +5,66 @@ body{
     padding: 0px;
     margin: 0px;
     height: 100vh;
-    border: 1px solid black;
     font-family: Roboto;
 }
 
 .header, .footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-    padding: 8px;
+    justify-content: center;
+    padding: 20px;
     background-color: #1F2937;
     color: azure;
 }
 
+.header .content{
+    display: flex;
+    justify-content: space-between;
+}
+
 .headerLogo {
-    flex: 1;
-    text-align: center;
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .headerLinks{
-    flex: 2;
     display: flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    gap:16px;
-    font-size: 18px;
+    align-items: center;
+    gap:38px;
+    font-size: 20px;
     color: #E5E7EB;
 }
 
-.footer{
+.content{
     display: flex;
-    justify-content: center;
-}
-
-.body{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 900px;
 }
 
 .section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
 }
 
 .section.area1{
+    background-color: #1F2937;
+}
+
+.section.area1 .content{
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
-    gap: 50px;
-    padding: 75px;
+    align-items: center;
+    gap: 40px;
+
 }
 
 .area1Left{
-    flex: 1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 200px;
     gap: 10px;
 }
 
@@ -85,74 +82,76 @@ body{
 }
 
 button{
-    width: 100px;
-    padding: 4px 8px;
+    width: 120px;
+    padding: 8px 12px;
     background-color: #3882F6;
+    border:#3882F6;
     color: white;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 12px;
     cursor: pointer;
 }
 
 img{
-    width: 200px;
+    width: 300px;
+    border-radius: 5px;
 }
 
-.section.area2{
+.section.area2 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #1F2937;
-    padding-bottom: 64px;
 }
 
 .section.area2 p{
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 900;
 }
 
 .section.area2 .container{
     display: flex;
-    justify-content: center;
-    gap: 16px;
-    font-size: 12px;
-    width: 400px;
+    gap: 20px;
 }
 
-.section.area2 .container .info{
+.section.area2 .info{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
     gap: 16px;
-    font-size: 12px;
 }
 
-.section.section.area2 .container .info img{
-    border: 1px solid blue;
-    width: 100px;
-    height: 100px;
+.img{
+    border: 2px solid #1F2937;
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    width: 140px;
+    height: 140px;
 }
 
 .section.area3{
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    font-size: 20px;
+    font-size: 32px;
     color: #1F2937;
-    padding: 64px 32px 32px;
+    padding: 64px;
 }
 
-.section.area3 .container{
+.section.area3 .content{
     display: flex;
     text-wrap: wrap;
     flex-direction: column;
-    width: 400px;
+    width: 700px;
 }
 
 .section.area3 p{
     text-align: end;
-    font-size: 16px;
+    margin: 0px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -160,27 +159,31 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 64px;
 }
 
-.section.area4 .container{
+.section.area4 .content{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 32px;
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 16px;
-    border-radius: 5px;
+    padding: 32px 0px;
+    border-radius: 6px;
 }
 
-.section.area4 .text{
-    font-size: 12px;
+.section.area4 .text p{
+    margin: 4px;
+}
+
+.section.area4 .boldText{
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .section.area4 button{
-    height: 22px;
     border: 1px solid white;
+    font-weight: 600;
     align-items: center;
     justify-content: center;
 }
